@@ -1,7 +1,7 @@
 name = "Kernels"
 uuid = "a5ed8a91-bf44-4cf1-8d55-886278d1f35e"
 authors = ["Matthew Schlegel <mkschleg@gmail.com>"]
-version = "0.1.0"
+version = "0.1.1"
 
 [deps]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
