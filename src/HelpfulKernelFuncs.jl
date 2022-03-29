@@ -1,4 +1,4 @@
-module Kernels
+module HelpfulKernelFuncs
 
 # cpu vectorization
 import KernelAbstractions, LoopVectorization # Loop vectorization and kernel abstractions
