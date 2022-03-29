@@ -1,4 +1,4 @@
-name = "Kernels"
+name = "HelpfulKernelFuncs"
 uuid = "a5ed8a91-bf44-4cf1-8d55-886278d1f35e"
 authors = ["Matthew Schlegel <mkschleg@gmail.com>"]
 version = "0.1.1"
