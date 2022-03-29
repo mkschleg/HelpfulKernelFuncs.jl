@@ -85,4 +85,10 @@ function contract_Wgax(Wg, Wa::AbstractMatrix{<:Number}, Wx::AbstractMatrix{<:Nu
     @tullio ret[q, k] := Wg[p, q, r] * Wa[p, k] * Wx[r, k]
 end
 
+function max_over_preds(preds_cpu, actual_seq_len)
+    @tullio q_tp1[i] := maximum(preds_cpu[actual_seq_len[i] + 1][:, i])
+    q_tp1
+end
+
+
 end # module Kernels
